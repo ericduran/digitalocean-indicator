@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#include <Python.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
