@@ -20,3 +20,10 @@ Not bad for copying and pasting from the internet :-p
 
 
 ALSO PYTHON C API :cry: :gun: HA
+
+
+###TODO:
+ - A preference pane
+ - Prevent empty application window
+ - prevent app from displaying in the dock
+ - EVERY OTHER FEATURE REQUIRE TO MAKE THIS WORK
