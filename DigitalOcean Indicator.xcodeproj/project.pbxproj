@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D83A92190CB9A000ADE68C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D83A91190CB9A000ADE68C /* Cocoa.framework */; };
+		56D83A9C190CB9A000ADE68C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D83A9A190CB9A000ADE68C /* InfoPlist.strings */; };
+		56D83A9E190CB9A000ADE68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D83A9D190CB9A000ADE68C /* main.m */; };
+		56D83AA2190CB9A000ADE68C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 56D83AA0190CB9A000ADE68C /* Credits.rtf */; };
+		56D83AA5190CB9A000ADE68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D83AA4190CB9A000ADE68C /* AppDelegate.m */; };
+		56D83AA8190CB9A000ADE68C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D83AA6190CB9A000ADE68C /* MainMenu.xib */; };
+		56D83AAA190CB9A000ADE68C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D83AA9190CB9A000ADE68C /* Images.xcassets */; };
+		56D83AB1190CB9A000ADE68C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D83AB0190CB9A000ADE68C /* XCTest.framework */; };
+		56D83AB2190CB9A000ADE68C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D83A91190CB9A000ADE68C /* Cocoa.framework */; };
+		56D83ABA190CB9A000ADE68C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D83AB8190CB9A000ADE68C /* InfoPlist.strings */; };
+		56D83ABC190CB9A000ADE68C /* DigitalOcean_IndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D83ABB190CB9A000ADE68C /* DigitalOcean_IndicatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D83AB3190CB9A000ADE68C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D83A86190CB99F00ADE68C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D83A8D190CB9A000ADE68C;
+			remoteInfo = "DigitalOcean Indicator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56D83A8E190CB9A000ADE68C /* DigitalOcean Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalOcean Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D83A91190CB9A000ADE68C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		56D83A94190CB9A000ADE68C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		56D83A95190CB9A000ADE68C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		56D83A96190CB9A000ADE68C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56D83A99190CB9A000ADE68C /* DigitalOcean Indicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalOcean Indicator-Info.plist"; sourceTree = "<group>"; };
+		56D83A9B190CB9A000ADE68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D83A9D190CB9A000ADE68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56D83A9F190CB9A000ADE68C /* DigitalOcean Indicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalOcean Indicator-Prefix.pch"; sourceTree = "<group>"; };
+		56D83AA1190CB9A000ADE68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		56D83AA3190CB9A000ADE68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56D83AA4190CB9A000ADE68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56D83AA7190CB9A000ADE68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		56D83AA9190CB9A000ADE68C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56D83AAF190CB9A000ADE68C /* DigitalOcean IndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DigitalOcean IndicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D83AB0190CB9A000ADE68C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56D83AB7190CB9A000ADE68C /* DigitalOcean IndicatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalOcean IndicatorTests-Info.plist"; sourceTree = "<group>"; };
+		56D83AB9190CB9A000ADE68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D83ABB190CB9A000ADE68C /* DigitalOcean_IndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalOcean_IndicatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D83A8B190CB9A000ADE68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83A92190CB9A000ADE68C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D83AAC190CB9A000ADE68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83AB2190CB9A000ADE68C /* Cocoa.framework in Frameworks */,
+				56D83AB1190CB9A000ADE68C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56D83A85190CB99F00ADE68C = {
+			isa = PBXGroup;
+			children = (
+				56D83A97190CB9A000ADE68C /* DigitalOcean Indicator */,
+				56D83AB5190CB9A000ADE68C /* DigitalOcean IndicatorTests */,
+				56D83A90190CB9A000ADE68C /* Frameworks */,
+				56D83A8F190CB9A000ADE68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56D83A8F190CB9A000ADE68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D83A8E190CB9A000ADE68C /* DigitalOcean Indicator.app */,
+				56D83AAF190CB9A000ADE68C /* DigitalOcean IndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D83A90190CB9A000ADE68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D83A91190CB9A000ADE68C /* Cocoa.framework */,
+				56D83AB0190CB9A000ADE68C /* XCTest.framework */,
+				56D83A93190CB9A000ADE68C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D83A93190CB9A000ADE68C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D83A94190CB9A000ADE68C /* AppKit.framework */,
+				56D83A95190CB9A000ADE68C /* CoreData.framework */,
+				56D83A96190CB9A000ADE68C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		56D83A97190CB9A000ADE68C /* DigitalOcean Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				56D83AA3190CB9A000ADE68C /* AppDelegate.h */,
+				56D83AA4190CB9A000ADE68C /* AppDelegate.m */,
+				56D83AA6190CB9A000ADE68C /* MainMenu.xib */,
+				56D83AA9190CB9A000ADE68C /* Images.xcassets */,
+				56D83A98190CB9A000ADE68C /* Supporting Files */,
+			);
+			path = "DigitalOcean Indicator";
+			sourceTree = "<group>";
+		};
+		56D83A98190CB9A000ADE68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D83A99190CB9A000ADE68C /* DigitalOcean Indicator-Info.plist */,
+				56D83A9A190CB9A000ADE68C /* InfoPlist.strings */,
+				56D83A9D190CB9A000ADE68C /* main.m */,
+				56D83A9F190CB9A000ADE68C /* DigitalOcean Indicator-Prefix.pch */,
+				56D83AA0190CB9A000ADE68C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56D83AB5190CB9A000ADE68C /* DigitalOcean IndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D83ABB190CB9A000ADE68C /* DigitalOcean_IndicatorTests.m */,
+				56D83AB6190CB9A000ADE68C /* Supporting Files */,
+			);
+			path = "DigitalOcean IndicatorTests";
+			sourceTree = "<group>";
+		};
+		56D83AB6190CB9A000ADE68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D83AB7190CB9A000ADE68C /* DigitalOcean IndicatorTests-Info.plist */,
+				56D83AB8190CB9A000ADE68C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D83A8D190CB9A000ADE68C /* DigitalOcean Indicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D83ABF190CB9A000ADE68C /* Build configuration list for PBXNativeTarget "DigitalOcean Indicator" */;
+			buildPhases = (
+				56D83A8A190CB9A000ADE68C /* Sources */,
+				56D83A8B190CB9A000ADE68C /* Frameworks */,
+				56D83A8C190CB9A000ADE68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalOcean Indicator";
+			productName = "DigitalOcean Indicator";
+			productReference = 56D83A8E190CB9A000ADE68C /* DigitalOcean Indicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D83AAE190CB9A000ADE68C /* DigitalOcean IndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D83AC2190CB9A000ADE68C /* Build configuration list for PBXNativeTarget "DigitalOcean IndicatorTests" */;
+			buildPhases = (
+				56D83AAB190CB9A000ADE68C /* Sources */,
+				56D83AAC190CB9A000ADE68C /* Frameworks */,
+				56D83AAD190CB9A000ADE68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D83AB4190CB9A000ADE68C /* PBXTargetDependency */,
+			);
+			name = "DigitalOcean IndicatorTests";
+			productName = "DigitalOcean IndicatorTests";
+			productReference = 56D83AAF190CB9A000ADE68C /* DigitalOcean IndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D83A86190CB99F00ADE68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ericduran;
+				TargetAttributes = {
+					56D83AAE190CB9A000ADE68C = {
+						TestTargetID = 56D83A8D190CB9A000ADE68C;
+					};
+				};
+			};
+			buildConfigurationList = 56D83A89190CB99F00ADE68C /* Build configuration list for PBXProject "DigitalOcean Indicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D83A85190CB99F00ADE68C;
+			productRefGroup = 56D83A8F190CB9A000ADE68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D83A8D190CB9A000ADE68C /* DigitalOcean Indicator */,
+				56D83AAE190CB9A000ADE68C /* DigitalOcean IndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D83A8C190CB9A000ADE68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83A9C190CB9A000ADE68C /* InfoPlist.strings in Resources */,
+				56D83AAA190CB9A000ADE68C /* Images.xcassets in Resources */,
+				56D83AA2190CB9A000ADE68C /* Credits.rtf in Resources */,
+				56D83AA8190CB9A000ADE68C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D83AAD190CB9A000ADE68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83ABA190CB9A000ADE68C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D83A8A190CB9A000ADE68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83AA5190CB9A000ADE68C /* AppDelegate.m in Sources */,
+				56D83A9E190CB9A000ADE68C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D83AAB190CB9A000ADE68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D83ABC190CB9A000ADE68C /* DigitalOcean_IndicatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D83AB4190CB9A000ADE68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D83A8D190CB9A000ADE68C /* DigitalOcean Indicator */;
+			targetProxy = 56D83AB3190CB9A000ADE68C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D83A9A190CB9A000ADE68C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D83A9B190CB9A000ADE68C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56D83AA0190CB9A000ADE68C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D83AA1190CB9A000ADE68C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		56D83AA6190CB9A000ADE68C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D83AA7190CB9A000ADE68C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		56D83AB8190CB9A000ADE68C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D83AB9190CB9A000ADE68C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D83ABD190CB9A000ADE68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56D83ABE190CB9A000ADE68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		56D83AC0190CB9A000ADE68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalOcean Indicator/DigitalOcean Indicator-Prefix.pch";
+				INFOPLIST_FILE = "DigitalOcean Indicator/DigitalOcean Indicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56D83AC1190CB9A000ADE68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalOcean Indicator/DigitalOcean Indicator-Prefix.pch";
+				INFOPLIST_FILE = "DigitalOcean Indicator/DigitalOcean Indicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56D83AC3190CB9A000ADE68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DigitalOcean Indicator.app/Contents/MacOS/DigitalOcean Indicator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalOcean Indicator/DigitalOcean Indicator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DigitalOcean IndicatorTests/DigitalOcean IndicatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56D83AC4190CB9A000ADE68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DigitalOcean Indicator.app/Contents/MacOS/DigitalOcean Indicator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalOcean Indicator/DigitalOcean Indicator-Prefix.pch";
+				INFOPLIST_FILE = "DigitalOcean IndicatorTests/DigitalOcean IndicatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D83A89190CB99F00ADE68C /* Build configuration list for PBXProject "DigitalOcean Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D83ABD190CB9A000ADE68C /* Debug */,
+				56D83ABE190CB9A000ADE68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D83ABF190CB9A000ADE68C /* Build configuration list for PBXNativeTarget "DigitalOcean Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D83AC0190CB9A000ADE68C /* Debug */,
+				56D83AC1190CB9A000ADE68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56D83AC2190CB9A000ADE68C /* Build configuration list for PBXNativeTarget "DigitalOcean IndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D83AC3190CB9A000ADE68C /* Debug */,
+				56D83AC4190CB9A000ADE68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D83A86190CB99F00ADE68C /* Project object */;
+}
