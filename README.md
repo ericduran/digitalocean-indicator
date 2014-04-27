@@ -27,3 +27,4 @@ ALSO PYTHON C API :cry: :gun: HA
  - Prevent empty application window
  - prevent app from displaying in the dock
  - EVERY OTHER FEATURE REQUIRE TO MAKE THIS WORK
+ - try to remember how any of this works tomorrow.
