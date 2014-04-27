@@ -10,7 +10,7 @@ Sadly I know 0 about objective 0 and/or python (ish).
 
 Anyways this is a total hack of a mac port. Not ready for any type of release.
 
-Currently Only list IP Address.
+Currently Only list IP Address. I'm tired, I'll wrap up the rest tomorrow.
 
 Screenshot:
 
